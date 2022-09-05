@@ -15,7 +15,7 @@ exponent_matrix <- function(N, L){
 transform_matrix <- function(V){
   V%*%solve(t(V)%*%V)
 }
-  
+
 coefficients <- function(z, T){
   t(z)%*%T
 }
